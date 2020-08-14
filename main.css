@@ -1,0 +1,223 @@
+body{
+    font-size: medium;
+    font-family: 'Source Serif Pro', serif;
+    background: #dedede ;   
+}
+#wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+aside{
+    background: #874385;
+    padding-right: 15px;    
+    padding-left: 15px;
+ 
+}
+aside#left{
+    float: left;
+    width: 300px;
+    margin-top: -20px;
+}
+aside img{
+    width: 300px;
+    height: 250px;
+}
+p span{
+    
+    font-family: 'Eagle Lake', cursive;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: grey;
+    font-weight: bold;
+}
+aside p{
+
+    font-size: small;
+    text-align: center;    
+    line-height: 40px;
+}
+aside#right_sidebar{
+    float: right;
+    width: 300px;
+    margin-top: -800px;
+
+}
+aside#right_sidebar p span{ 
+    font-family: 'Eagle Lake', cursive;
+    font-size: large;
+    text-transform: capitalize;
+    color: grey;
+    font-weight: bold;
+
+}
+aside#right_sidebar p {
+    font-size: small;
+    text-align: center;
+    line-height: 40px;
+
+}
+nav ul{
+    
+    list-style: none;
+    background: #874385;
+    text-transform: capitalize;
+    font-size: medium;
+    line-height: 40px;
+    
+   
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none; 
+    padding: 0px 50px;
+    text-align: left;
+}
+.li1{
+    background: url("004-home.png") no-repeat;
+    background-size: 20px;    
+}
+.li2{
+    background: url("015-clipboard.png") no-repeat;
+    background-size: 20px;
+}  
+.li3{
+    background: url("017-folder.png")no-repeat;
+    background-size: 20px;
+    }
+.li4{
+    background: url("globe.png")no-repeat;
+    background-size: 20px;    
+}
+.border{
+    border-bottom: #dedede solid;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+header{
+    font-size: 18px ;
+    font-family: 'Eagle Lake', cursive;
+    color: grey;
+    border-bottom: #874385 solid 3px;
+    text-transform: capitalize;
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+article.index{
+    margin-left: 355px; 
+    margin-right: 15px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    color: black;
+    padding-bottom: 100px;
+
+    
+}
+.first{
+    padding-top: 30px;
+    font-family: 'Eagle Lake', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+img {
+
+    background:no-repeat ;
+    float: right;
+    width: 400px;
+    height: 600px;
+    padding-left: 10px;
+
+}
+article.portfolio{
+    margin-left: 360px; 
+    margin-right: 360px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    color: black;
+}
+
+/*positioning demo css goes here*/
+
+.positioning_demo{
+    position: relative;
+    height: 350px;
+    background:#7aa870;
+}
+.box1{
+    width: 65px;
+    height: 65px;
+    background:#c54247;
+    position: relative;
+    color: black;
+    text-align: center;
+    line-height: 65px;
+}
+
+
+.box2{
+    width: 65px;
+    height: 65px;
+    background:#374dc6;
+    position: relative;
+    color: black;
+    text-align: center;
+    line-height: 65px;
+    margin-top: 220px;
+}
+
+
+.box3{
+    width: 65px;
+    height: 65px;
+    background: #d90368;
+    position: relative; 
+    color: black;
+    text-align: center;
+    line-height: 65px;
+    bottom: 350px;
+    left:615px;
+}
+
+.box4{
+    width: 65px;
+    height: 65px;
+    background: #c6c637;;
+    position: relative; 
+    color: black;
+    text-align: center;
+    line-height: 65px;
+    bottom: 130px;
+    left:615px;
+}
+.box5{  
+    width: 65px;
+    height: 65px;
+    background:white;
+    position: relative;
+    margin: 0 auto; 
+    line-height: 65px;
+    color: black;
+    text-align: center;
+    bottom: 400px;
+}
+.box6{
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 30px;
+    right:20px;
+    background: url("home1.png")no-repeat;
+    background-size: 65px;  
+}
+footer{
+    clear: both;
+}
+footer p{
+    text-align: center;
+}
